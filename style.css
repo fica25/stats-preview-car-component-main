@@ -1,0 +1,169 @@
+:root{
+    --main-background--:hsl(233, 47%, 7%);
+    --card-background--: hsl(244, 38%, 16%);
+    --accent--:hsl(277, 64%, 61%);
+    --main-paragraph--:hsla(0, 0%, 100%, 0.75);
+    --headings--:hsla(0, 0%, 100%, 0.6);
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+  background-color:var(--main-background--);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+.accent{
+    color:hsl(277, 64%, 61%);
+}
+
+/*container */
+
+.container{
+    width:320px;
+    margin-left:200px;
+    margin-right:200px;
+    margin-top:50px;
+    margin-bottom:50px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    word-spacing:5px;
+    
+}
+.container h1{
+    font-family:'Inter', sans-serif;
+    font-weight:800;
+    color:#FFFFFF;
+    line-height:1.3;
+    font-size:30px;
+    
+    
+}
+.container p{
+    margin-top:30px;
+    font-family:'Inter',sans-serif;
+    font-size:15px;
+    color:hsla(0, 0%, 100%, 0.75);
+    opacity:0.8;
+    }
+    
+
+/* main section */
+
+main{
+    width:100%; 
+}
+.main-section{
+    height:100%;
+    display:flex;
+    flex-direction: row;
+    width:1150px;
+    background-color:hsl(244, 38%, 16%);
+    margin-top:100px;
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom:50px;
+    border-radius:10px; 
+}
+/*content*/
+
+
+.content{
+    width:60%;
+}
+
+
+/*components*/
+.components{
+    margin-top:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.c1{
+    width:30%;   
+}
+.c1 p{
+    margin-top:-1px;
+}
+.c1 h3{
+    font-family:'Lexend Deca', sans-serif;
+    color:#FFFFFF;
+}
+.c2{
+    margin-left:60px;
+    width:30%;
+}
+.c2 p{
+    margin-top:-1px;
+}
+.c2 h3{
+    font-family:'Lexend Deca', sans-serif;
+    color:#FFFFFF;
+}
+.c3{
+    margin-left:60px;
+    width:30%;  
+}
+.c3 p{
+    margin-top:-1px;
+}
+.c3 h3{
+    font-family:'Lexend Deca', sans-serif;
+    color:#FFFFFF;
+}
+
+/*image*/
+
+.img-div{
+    width:40%;
+    position:relative;
+    border-radius:0 10px 10px 0;
+    
+    
+}
+img{
+    width:100%;
+    height:100%;
+    border-radius:0 10px 10px 0;
+    
+}
+.overlay{
+    width:100%;
+    height:100%;
+    background-color:hsl(277, 64%, 61%);
+    position:absolute;
+    top:0;
+    opacity:0.6;
+    border-radius:0 10px 10px 0;
+}
+/*footer*/
+
+footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+footer p {
+    color:#c2bbbb;
+    font-family:'Inter',  sans-serif;
+}
+footer a{
+    text-decoration:none;
+    color:hsl(228, 45%, 44%);
+}
+footer a:hover{
+    text-decoration:underline;   
+}
+
+
+
+
+
+
+
